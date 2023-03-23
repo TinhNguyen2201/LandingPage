@@ -1,0 +1,641 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1450px; 
+    height: 2000px;
+    background: linear-gradient(180deg, #B4201C 0%, #FFEFB7 100%);
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 91px;
+    background: rgb(181, 31, 43);
+    display: flex;
+}
+
+header .logo{
+    width: 50%;
+    height: 100%;
+}
+
+header .logo img{
+    width: 210px;
+    margin-top: 20px;
+    margin-left: 91px;
+    /* background-color: aqua; */
+
+}
+
+header .thanhDieuHuong{
+    width: 50%;
+    height: 100%;
+}
+
+header .thanhDieuHuong ul{
+    display: flex;
+    justify-content: center;
+}
+
+header .thanhDieuHuong ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 91px;
+}
+
+header .thanhDieuHuong ul li a:hover{
+    color: #EFD888;
+}
+
+/* banner */
+
+.banner{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.banner a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #B82D26;
+    text-decoration: none;
+    background-color: #EFD888;
+    padding: 13.5px 40px;
+    border-radius: 50px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 326px;
+    left: 187px;
+}
+
+.banner a:hover{
+    color: #523C3E;
+    background-image: linear-gradient(#E13F4E, rgba(229, 92, 104, 0.4));
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* article */
+
+    /* Ưu đãi */
+
+article .khungUuDai{
+    display: flex;
+    justify-content: center;
+}
+
+article .khungUuDai .uuDai{
+    width: 340px;
+    height: 389px;
+    border: 5px solid #F1E29D;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #B4201C 0%, #FFEFB7 100%);
+    margin: 123px 10px;
+    padding-top: 26px;
+    position: relative;
+}
+
+article .khungUuDai .uuDai .ngay{
+    position: absolute;
+    top: -45px;
+    left: 54px;
+}
+
+article .khungUuDai .uuDai .line1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3);
+    margin: 0 90px;
+}
+
+article .khungUuDai .uuDai .line2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3);
+    margin: 0 65px;
+}
+
+article .khungUuDai .uuDai a{
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #B82D26;
+    text-decoration: none;
+    background-color: #EFD888;
+    padding: 13.5px 30px;
+    border-radius: 50px;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+    margin: 0 48px;
+}
+
+article .khungUuDai .uuDai a:hover{
+    color: #523C3E;
+    background-image: linear-gradient(#E13F4E, rgba(229, 92, 104, 0.4));
+}
+
+    /* Giới thiệu */
+
+article .nenGioiThieu{
+    width: 100%;
+    height: 822px;
+    background: url(../images/nen2.jfif);
+    filter: blur(7.5px);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+}
+
+article .gioiThieu .hinhGioiThieu1{
+    position: absolute;
+    top: calc(1311px + 105px);
+    left: 206px;
+    width: 300px;
+    border-radius: 300px;
+}
+
+article .gioiThieu .line1{
+    position: absolute;
+    width: 575px;
+    height: 62px;
+    left: 191px;
+    top: calc(1311px + 415px);
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+
+article .gioiThieu .line2{
+    position: absolute;
+    width: 712px;
+    height: 62px;
+    left: 189px;
+    top: calc(1311px + 477px);
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #B31A28;
+}
+
+article .gioiThieu .line3{
+    position: absolute;
+    width: 663px;
+    height: 110px;
+    left: 189px;
+    top: calc(1311px + 539px);
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+article .gioiThieu .line4{
+    position: absolute;
+    width: 575px;
+    height: 62px;
+    left: 698px;
+    top: calc(1311px + 130px);
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+article .gioiThieu .line5{
+    position: absolute;
+    width: 712px;
+    height: 62px;
+    left: 716px;
+    top: calc(1311px + 192px);
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #B31A28;
+}
+
+article .gioiThieu .line6{
+    position: absolute;
+    width: 690px;
+    height: 170px;
+    left: 650px;
+    top: calc(1311px + 254px);
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: right;
+
+    color: #000000;
+}
+
+    /* Công nghệ thẩm thấu */
+
+article .congNgheThamThau{
+    width: 100%;
+    height: 729px;
+    background: #6C1018;
+    position: relative;
+}
+
+article .congNgheThamThau .line1{
+    position: absolute;
+    width: 880px;
+    height: 84px;
+    left: 280px;
+    top: 69px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+
+    color: #EFD888;
+}
+
+article .congNgheThamThau .line2{
+    position: absolute;
+    width: 740px;
+    height: 36px;
+    left: 350px;
+    top: 134px;
+
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+article .congNgheThamThau .baCaiHinh{
+display: flex;
+justify-content: center;
+}
+
+article .congNgheThamThau .baCaiHinh img{
+    width: 350px;
+    margin: 0 -15px;
+    margin-top: 200px;
+}
+
+article .congNgheThamThau h1{
+
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+
+
+    color: #FFFFFF; 
+}
+
+article .congNgheThamThau .line3{
+    position: absolute;
+    width: 332px;
+    height: 161.43px;
+    left: 200px;
+    top: 595px;
+
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: right;
+
+    color: #EFD888;
+}
+
+article .congNgheThamThau .line4{
+    position: absolute;
+    width: 300px;
+    height: 161.43px;
+    left: 570px;
+    top: 595px;
+
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #EFD888;
+}
+
+article .congNgheThamThau .line5{
+    position: absolute;
+    width: 320px;
+    height: 161.43px;
+    left: 910px;
+    top: 595px;
+
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+
+    color: #EFD888;
+}
+
+    /* Sản Phẩm */
+
+article .sanPham{
+    width: 100%;
+    height: 692px;
+    background: rgba(181, 30, 43, 0.9);
+    /* padding: auto 0; */
+    /* position: relative; */
+    display: flex;
+}
+
+article .sanPham .sanPham1{
+    position: relative;
+}
+
+article .sanPham .sanPham1 img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+ article .sanPham .sanPham1 a{
+    position: absolute;
+    /* bottom: 70px; */
+    bottom: 167px;
+    left: 845px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #F0D88A;
+    text-decoration: none;
+    background: #AC1719;
+    padding: 16.5px 58px;
+    border-radius: 50px;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+    margin: 0 48px;
+ }
+
+ article .sanPham .sanPham1 a:hover{
+    color: #523C3E;
+    background-image: linear-gradient(#E13F4E, rgba(216, 124, 67, 0.6));
+}
+
+    /* Mua sản phẩm */
+
+article .muaSanPham{
+    width: 100%;
+    height: 775px;
+    background: rgba(255, 255, 255, 0.01);
+    /* background-color: aqua; */
+    position: relative;
+}
+
+article .muaSanPham .sanPham{
+    width: 428px;
+    height: 379.65px;
+    background: #EFD888;
+}
+
+article .muaSanPham .sanPham .bongMo{
+    position: absolute;
+    width: 316.84px;
+    height: 76px;
+    left: 55px;
+    top: -50px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(15px);
+    border-radius: 60px;
+}
+
+article .muaSanPham .sanPham .soThu1{
+    position: absolute;
+    left: 74px;
+    top: 64px;
+    width: 79.2px;
+    height: 44.88px;
+
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #601717;
+
+    text-decoration: line-through;
+}
+
+article .muaSanPham .sanPham .soThu2{
+    position: absolute;
+    left: 183px;
+    top: 44px;
+    width: 147.84px;
+    height: 84.26px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+    text-align: center;
+
+    color: #B31A28;
+}
+
+article .muaSanPham .sanPham .soThu3{
+    position: absolute;
+    right: 0px;
+    top: 122px;
+    width: 116.16px;
+    height: 44.99px;
+    
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #EFD888;
+
+    background: linear-gradient(180deg, #B41D2A 69.79%, #FFEFB7 100%);
+    box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25);
+}
+
+article .muaSanPham .sanPham .hinh1{
+    position: absolute;
+    width: 207px;
+    height: 230.47px;
+    left: 18px;
+    bottom: 0;
+}
+
+article .muaSanPham .sanPham .hinh3{
+    position: absolute;
+    width: 127.54px;
+    height: 146.61px;
+    right: 25px;
+    bottom: 0px;
+}
+
+article .muaSanPham .sanPham .dauCong{
+    position: absolute;
+    width: 37.35px;
+    height: 44.26px;
+    left: 246px;
+    bottom: 60px;
+
+    font-family: fantasy;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+
+    color: #B4201C;
+
+}
+
+article .muaSanPham .sanPham .rect{
+    position: absolute;
+    width: 462px;
+    height: 91.8px;
+    left: -17px;
+    bottom: -91.8px;
+
+    background: linear-gradient(180deg, #B4201C 71.87%, #FFEFB7 100%);
+    border: 5px solid #F1E29D;
+    border-radius: 20px;
+}
+
+article .muaSanPham .sanPham .rect .line2{
+    position: absolute;
+    width: 237.6px;
+    height: 38.45px;
+    right: 0;
+    top: 13.39px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+article .muaSanPham .sanPham .rect .line3{
+    position: absolute;
+    width: 234.96px;
+    height: 38.45px;
+    right: 0;
+    top: 49px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+article .muaSanPham .sanPham .rect a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #B82D26;
+    text-decoration: none;
+    background-color: #EFD888;
+    padding: 13.5px 36px;
+    border-radius: 50px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+
+article .muaSanPham .sanPham .rect a:hover{
+    color: #523C3E;
+    background-image: linear-gradient(#E13F4E, rgba(229, 92, 104, 0.4));
+}
+
+article .muaSanPham .line1{
+    /* position: absolute;
+    left: 197px;
+    top: 125px; */
+
+    width: 500px;
+    height: 98.5px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 2px 0 #E44548, -2px 0 #E44548, 0 2px #E44548, 0 -2px #E44548,
+             1px 1px #E44548, -1px -1px #E44548, 1px -1px #E44548, -1px 1px #E44548;
+
+
+    /* border: 4px solid #E44548; */
+}
+
+/* article .muaSanPham img{
+    width: 100%;
+} */
