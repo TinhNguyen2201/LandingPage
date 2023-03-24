@@ -92,6 +92,7 @@
             <div class="gioiThieu">
 
                 <img src="./images/hinhGioiThieu1.png" alt="hinhGioiThieu1" class="hinhGioiThieu1">
+                <img src="./images/hinhGioiThieu2.png" alt="hinhGioiThieu2" class="hinhGioiThieu2">
                 <span class="line1">TSUBAKI PREMIUM REPAIR</span>
                 <span class="line2">Tóc chắc khỏe & Thơm ngát hương hoa</span>
                 <p class="line3">Chiết xuất Dầu hoa Trà Nhật,
@@ -149,16 +150,22 @@
             <!-- Sản phẩm -->
 
             <div class="sanPham">
-
-                <div class="sanPham1">
-                    <img src="./images/sanPham1.jpg" alt="sanPham1">
-                    <a href="#">XEM THÊM</a>
+                <div class="slideGroup">
+                    <div class="slides">
+                        <div class="sanPham1">
+                            <img src="./images/sanPham1.jpg" alt="sanPham1">
+                            <a href="#" class="nutThu1">XEM THÊM</a>
+                        </div>
+                        
+                        <div class="sanPham1">
+                            <img src="./images/sanPham2.jpg" alt="sanPham2">
+                            <a href="#" class="nutThu2">XEM THÊM</a>
+                        </div>
+                        
+                    </div>
+                    <button type="button" class="left" onclick="changeslide(-1)"><<</button>
+                    <button type="button" class="right" onclick="changeslide(1)">>></button>
                 </div>
-
-                <!-- <div class="sanPham2">
-                    <img src="./images/sanPham2.jpg" alt="sanPham1">
-                    <a href="#">XEM THÊM</a>
-                </div> -->
             </div>
 
             <!-- Mua sản phẩm -->
@@ -237,6 +244,31 @@
                 <span class="line1">Các dòng sản phẩm của Tsubaki</span>
                 <img src="./images/sanPhamNoiBat1.png" alt="sanPhamNoiBat1" class="pic1">
                 <span class="line2">SẢN PHẨM NỔI BẬT</span>
+
+                <div class="slideGroupTo">
+                    <div class="slideGroup2">
+                        <div class="slides2">
+                            <div class="slide2">
+                                <img src="./images/sanPhamNoiBat2.png" alt="sanPhamNoiBat2">
+                            </div>
+                            <div class="slide2">
+                                <img src="./images/sanPhamNoiBat3.png" alt="sanPhamNoiBat3">
+                            </div>
+                            <div class="slide2">
+                                <img src="./images/sanPhamNoiBat4.png" alt="sanPhamNoiBat4">
+                            </div>
+                            <div class="slide2">
+                                <img src="./images/sanPhamNoiBat5.png" alt="sanPhamNoiBat5">
+                            </div>
+                            <div class="slide2">
+                                <img src="./images/sanPhamNoiBat6.png" alt="sanPhamNoiBat6">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="top" onclick="changeslide2(-1)">^</button>
+                    <button type="button" class="bottom" onclick="changeslide2(1)">v</button>
+                </div>
+
             </div>
 
             <!-- Hướng dẫn -->
@@ -284,7 +316,7 @@
                     <input type="text" placeholder="Họ và tên"> <br>
                     <input type="text" placeholder="Email"> <br>
                     <input type="text" placeholder="Số điện thoại">
-                    <button type="submit">Đăng ký</button>
+                    <button type="submit">Gửi</button>
                 </form>
             </div>
         </footer>
