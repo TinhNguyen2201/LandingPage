@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400&family=Kanit:wght@300&family=Libre+Bodoni&family=Roboto:wght@200&family=Signika+Negative:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400&family=Kanit:wght@500&family=Libre+Bodoni&family=Roboto:wght@200&family=Signika+Negative:wght@300;400&display=swap');
 
 *{
     box-sizing: border-box;
@@ -6,8 +6,9 @@
 
 .container{
     width: 1450px; 
-    height: 2000px;
-    background: linear-gradient(180deg, #B4201C 0%, #FFEFB7 100%);
+    height: fit-content;
+    background: linear-gradient(180deg, #B4201C 0%, #FFEFB7 100%, #B4201C 0%);
+    background-attachment: fixed;
 }
 
 /* Header */
@@ -831,7 +832,7 @@ article .voucher .chuaBaRect .rect .pic4{
     /* Sản Phẩm Nổi Bật */
 
 article .sanPhamNoiBat{
-    width: 1453px;
+    width: 100%;
     height: 770px;  
     background: rgba(181, 30, 43, 0.9);
     position: relative;
@@ -868,4 +869,216 @@ article .sanPhamNoiBat .line1{
     
     text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3);
     z-index: 2;
+}
+
+article .sanPhamNoiBat .pic1{
+    position: absolute;
+    top: 145px;
+    left: 190px;
+    width: 700px;
+    z-index: 2;
+}
+
+article .sanPhamNoiBat .line2{
+    position: absolute;
+    width: 695px;
+    height: 66px;
+    left: 329px;
+    bottom: 136px;
+    
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    
+    background: linear-gradient(180deg, #FFFFFF 27.6%, #EFD888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+    /* Hướng dẫn */
+
+article .huongDan{
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background: #EFD888;
+}
+
+article .huongDan .bongMo{
+    position: absolute;
+    width: 178px;
+    height: 77px;
+    left: 394px;
+    top: 46px;
+
+    background: rgba(255, 255, 255, 0.9);
+    filter: blur(50px);
+    border-radius: 100px;
+}
+
+article .huongDan .line1{
+    position: absolute;
+    width: 598.22px;
+    height: 89px;
+    left: 171px;
+    top: 57px;
+
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    
+    color: #B31A28;
+    text-shadow: 1px 0 #FFFFFF, -1px 0 #FFFFFF, 0 1px #FFFFFF, 0 -1px #FFFFFF,
+    0.5px 0.5px #FFFFFF, -0.5px -0.5px #FFFFFF, 0.5px -0.5px #FFFFFF, -0.5px 0.5px #FFFFFF;
+}
+
+article .huongDan .line2{
+    position: absolute;
+    width: 914.86px;
+    height: 77px;
+    left: 411px;
+    top: 49px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+
+    color: #B31A28;
+
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3);
+}
+
+article .huongDan .pic1{
+    width: 80%;
+    position: absolute;
+    top: 177px;
+    left: 170px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 514px;
+    background: rgba(181, 30, 43, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+    /* information */
+
+footer .information{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding-top: 72px;
+}
+
+footer .information .line1{
+    /* position: absolute; */
+    width: 417px;
+    height: 56px;
+    /* left: 194px;
+    top: 72px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.82);
+    /* margin-top: 72px; */
+    margin-left: 194px;
+}
+
+footer .information .line2{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 0.82);
+    margin-left: 240px;
+    width: 300px;
+    /* background-color: #523C3E; */
+    margin-top: 25px;
+}
+
+    /* Register */
+
+footer .register{
+    width: 50%;
+    height: 100%;
+    /* background-color: turquoise; */
+}
+
+footer .register form{
+    width: 520px;
+    height: 325px;
+    border: 1px solid #fff;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+footer .register label{
+    margin-left: 210px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.82);
+
+}
+
+footer .register input{
+    font-family: 'Kanit';
+    width: 95%;
+    height: 57px;
+    margin: 9px 0;
+    margin-left: 2.5%;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: wheat;
+}
+
+footer .register input::placeholder{
+    color: white;
+}
+
+footer .register button{
+    width: 40%;
+    height: 57px;
+    font-size: 24px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: calc(60% / 2);
+    border: none;
+    transition: 0.3s;
+}
+
+footer .register button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
 }
