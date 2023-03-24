@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400&family=Kanit:wght@300&family=Libre+Bodoni&family=Roboto:wght@200&family=Signika+Negative:wght@300;400&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -41,11 +43,11 @@ header .thanhDieuHuong ul{
 }
 
 header .thanhDieuHuong ul li a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: #FFFFFF;
     margin: 0 15px;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 18px;
     line-height: 91px;
 }
@@ -63,19 +65,19 @@ header .thanhDieuHuong ul li a:hover{
 }
 
 .banner a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     color: #B82D26;
     text-decoration: none;
     background-color: #EFD888;
-    padding: 13.5px 40px;
+    padding: 13.5px 46px;
     border-radius: 50px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
     position: absolute;
     top: 326px;
-    left: 187px;
+    left: 195px;
 }
 
 .banner a:hover{
@@ -114,34 +116,34 @@ article .khungUuDai .uuDai .ngay{
 }
 
 article .khungUuDai .uuDai .line1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 60px;
     color: #FFFFFF;
     text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3);
-    margin: 0 90px;
+    margin: 0 95px;
 }
 
 article .khungUuDai .uuDai .line2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
     color: #FFFFFF;
     text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3);
-    margin: 0 65px;
+    margin: 0 70px;
 }
 
 article .khungUuDai .uuDai a{
     position: absolute;
     bottom: -35px;
-    left: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    left: 10px;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 32px;
     color: #B82D26;
     text-decoration: none;
@@ -183,7 +185,7 @@ article .gioiThieu .line1{
     height: 62px;
     left: 191px;
     top: calc(1311px + 415px);
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Bodoni', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -197,7 +199,7 @@ article .gioiThieu .line2{
     height: 62px;
     left: 189px;
     top: calc(1311px + 477px);
-    font-family: sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -211,7 +213,7 @@ article .gioiThieu .line3{
     height: 110px;
     left: 189px;
     top: calc(1311px + 539px);
-    font-family: sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -223,10 +225,10 @@ article .gioiThieu .line4{
     position: absolute;
     width: 575px;
     height: 62px;
-    left: 698px;
+    left: 718px;
     top: calc(1311px + 130px);
 
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Bodoni', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -239,10 +241,10 @@ article .gioiThieu .line5{
     position: absolute;
     width: 712px;
     height: 62px;
-    left: 716px;
+    left: 736px;
     top: calc(1311px + 192px);
 
-    font-family: sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -253,12 +255,12 @@ article .gioiThieu .line5{
 
 article .gioiThieu .line6{
     position: absolute;
-    width: 690px;
+    width: 670px;
     height: 170px;
-    left: 650px;
+    left: 620px;
     top: calc(1311px + 254px);
 
-    font-family: sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -284,9 +286,9 @@ article .congNgheThamThau .line1{
     left: 280px;
     top: 69px;
 
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Bodoni', serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 42px;
     line-height: 52px;
     text-align: center;
@@ -301,7 +303,7 @@ article .congNgheThamThau .line2{
     left: 350px;
     top: 134px;
 
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -324,7 +326,7 @@ article .congNgheThamThau .baCaiHinh img{
 
 article .congNgheThamThau h1{
 
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 44px;
@@ -341,7 +343,7 @@ article .congNgheThamThau .line3{
     left: 200px;
     top: 595px;
 
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -358,7 +360,7 @@ article .congNgheThamThau .line4{
     left: 570px;
     top: 595px;
 
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -375,7 +377,7 @@ article .congNgheThamThau .line5{
     left: 910px;
     top: 595px;
 
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -410,7 +412,7 @@ article .sanPham .sanPham1 img{
     /* bottom: 70px; */
     bottom: 167px;
     left: 845px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -464,7 +466,7 @@ article .muaSanPham .sanPham .soThu1{
     width: 79.2px;
     height: 44.88px;
 
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -483,7 +485,7 @@ article .muaSanPham .sanPham .soThu2{
     width: 147.84px;
     height: 84.26px;
 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -500,7 +502,7 @@ article .muaSanPham .sanPham .soThu3{
     width: 116.16px;
     height: 44.99px;
     
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -565,7 +567,7 @@ article .muaSanPham .sanPham .rect .line2{
     right: 0;
     top: 13.39px;
 
-    font-family: sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -581,7 +583,7 @@ article .muaSanPham .sanPham .rect .line3{
     right: 0;
     top: 49px;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -592,7 +594,7 @@ article .muaSanPham .sanPham .rect .line3{
 }
 
 article .muaSanPham .sanPham .rect a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-style: normal;
     font-weight: bolder;
     font-size: 24px;
@@ -620,7 +622,7 @@ article .muaSanPham .line1{
     width: 500px;
     height: 98.5px;
 
-    font-family: 'Kanit';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -636,6 +638,234 @@ article .muaSanPham .line1{
     /* border: 4px solid #E44548; */
 }
 
-/* article .muaSanPham img{
+    /* Voucher */
+
+article .voucher{
     width: 100%;
-} */
+    height: 660px;
+    background: rgba(239, 216, 136, 0.9);
+    position: relative;
+}
+
+article .voucher .line1{
+    position: absolute;
+    width: 457px;
+    height: 88px;
+    left: 427px;
+    top: 20px;
+    
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    
+    color: #B31A28;
+    
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+article .voucher .rect1{
+    position: absolute;
+    width: 202px;
+    height: 83px;
+    left: 737px;
+    top: 24px;
+
+    background: rgba(255, 255, 255, 0.9);
+    filter: blur(50px);
+    border-radius: 100px;
+    z-index: 1;
+}
+
+article .voucher .line2{
+    position: absolute;
+    width: 597px;
+    height: 89px;
+    left: 555px;
+    top: 30px;
+
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #B31A28;
+    text-shadow: 1px 0 #FFFFFF, -1px 0 #FFFFFF, 0 1px #FFFFFF, 0 -1px #FFFFFF,
+             0.5px 0.5px #FFFFFF, -0.5px -0.5px #FFFFFF, 0.5px -0.5px #FFFFFF, -0.5px 0.5px #FFFFFF;
+    /* border: 0.5px solid #FFFFFF; */
+    z-index: 2;
+}
+
+article .voucher .chuaBaRect{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+article .voucher .chuaBaRect .rect{
+    background: linear-gradient(180deg, #B4201C 0%, #FFEFB7 100%);
+    border: 3px solid #EFD888;
+    border-radius: 30px;
+    margin: 0 40px;
+    margin-top: 128px;
+    position: relative;
+}
+
+article .voucher .chuaBaRect .rect .line3{
+    position: absolute;
+    width: 277.12px;
+    height: 62.51px;
+    left: 10%;
+    top: 4%;
+
+    font-family: 'Signika Negative', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+article .voucher .chuaBaRect .rect .bongMo1{
+    position: absolute;
+    width: 234.42px;
+    height: 192.39px;
+    left: 61px;
+    top: 131px;
+
+    background: rgba(255, 255, 255, 0.9);
+    filter: blur(50px);
+    border-radius: 100px;
+    z-index: 1;
+}
+
+article .voucher .chuaBaRect .rect .pic1{
+    position: absolute;
+    left: 70px;
+    top: 91px;
+    z-index: 2;
+}
+
+article .voucher .chuaBaRect .rect .pic2{
+    position: absolute;
+    left: 150px;
+    top: 98px;
+    z-index: 2;
+}
+article .voucher .chuaBaRect .rect a{
+    position: absolute;
+    bottom: 34px;
+    left: 56px;
+    width: 242.79px;
+    height: 61.7px;
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #EFD487;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+    background: #7A0F0F;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 14px 15px;
+    z-index: 2;
+}
+
+article .voucher .chuaBaRect .rect a:hover{
+    color: #523C3E;
+    background-image: linear-gradient(#E13F4E, rgba(216, 124, 67, 0.6));
+}
+
+article .voucher .chuaBaRect .rect .pic3{
+    position: absolute;
+    top: 60px;
+    left: 16px;
+    width: 258.65px;
+    height: 180.15px;
+    z-index: 2;
+}
+
+article .voucher .chuaBaRect .rect .bongMo2{
+    position: absolute;
+    width: 214.68px;
+    height: 233.29px;
+    left: 40px;
+    top: 33px;
+
+    background: rgba(255, 255, 255, 0.9);
+    filter: blur(50px);
+    border-radius: 100px;
+    z-index: 1;
+}
+
+article .voucher .chuaBaRect .rect .bongMo3{
+    position: absolute;
+    width: 93.93px;
+    height: 76.86px;
+    left: 30.66px;
+    top: 92.54px;
+
+    background: rgba(255, 255, 255, 0.9);
+    filter: blur(35px);
+    border-radius: 100px;
+}
+
+article .voucher .chuaBaRect .rect .pic4{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 220px;
+}
+
+    /* Sản Phẩm Nổi Bật */
+
+article .sanPhamNoiBat{
+    width: 1453px;
+    height: 770px;  
+    background: rgba(181, 30, 43, 0.9);
+    position: relative;
+}
+
+article .sanPhamNoiBat .bongMo{
+    position: absolute;
+    width: 1195px;
+    height: 613px;
+    left: 118px;
+    top: 85px;
+
+    background: rgba(215, 166, 166, 0.83);
+    filter: blur(50px);
+    border-radius: 100px;
+    z-index: 1;
+}
+
+article .sanPhamNoiBat .line1{
+    position: absolute;
+    width: 805px;
+    height: 88px;
+    left: 325px;
+    top: 30px;
+    
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    
+    color: #F0D98A;
+    
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
