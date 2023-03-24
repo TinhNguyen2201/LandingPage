@@ -1,3 +1,5 @@
+// Slide show 1
+
 var slides = document.querySelector('.slides');
 var slide = Array.from(document.querySelectorAll('.sanPham1'));
 var slideGroup = document.querySelector('.slideGroup');
@@ -29,6 +31,8 @@ function changeslide(n) {
 
 
 
+// Slide show 2
+
 
 var slides2 = document.querySelector('.slides2');
 var slide2 = Array.from(document.querySelectorAll('.slide2'));
@@ -48,7 +52,7 @@ makeslide2(2);
 var curpage2 = 1;
 
 function showslide2(pagenumber) {
-    slides2.style.marginTop =-(slideGroup2.offsetHeight*(pagenumber - 1)) + 'px';
+    slides2.style.marginTop = -(slideGroup2.offsetHeight*(pagenumber - 1)) + 'px';
 }
 showslide2(1);
 
@@ -57,6 +61,4 @@ function changeslide2(n) {
     if(curpage2 < 1)curpage2 = numPage2;
     if(curpage2 > numPage2)curpage2 = 1;
     showslide2(curpage2);
-    // alert(curpage2)
 }
-

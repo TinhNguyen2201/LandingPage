@@ -17,23 +17,23 @@
     <div class="container">
 
         <!-- header -->
-
         <header>
             <div class="logo"><img src="./images/logo1.png" alt="logoTsubaki"></div>
             <div class="thanhDieuHuong">
                 <ul>
-                    <li><a href="#">TRANG CHỦ</a></li>
-                    <li><a href="#">GIỚI THIỆU</a></li>
-                    <li><a href="#">SẢN PHẨM</a></li>
-                    <li><a href="#">KHUYẾN MÃI</a></li>
-                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li><a href="#banner">TRANG CHỦ</a></li>
+                    <li><a href="#gioiThieu">GIỚI THIỆU</a></li>
+                    <li><a href="#sanPham">SẢN PHẨM</a></li>
+                    <li><a href="#muaSanPham">KHUYẾN MÃI</a></li>
+                    <li><a href="#footer">LIÊN HỆ</a></li>
                 </ul>
             </div>
         </header>
+        <div class="headerFake"></div>
 
         <!-- banner -->
 
-        <div class="banner">
+        <div class="banner" id="banner">
             <img src="./images/banner.jpg" alt="banner">
             <a href="#">Xem chi tiết</a>
         </div>
@@ -87,10 +87,10 @@
 
             <!-- Giới thiệu -->
 
-            <div class="nenGioiThieu"></div>
-
-            <div class="gioiThieu">
-
+            
+            <div class="gioiThieu" id="gioiThieu">
+                
+                <div class="nenGioiThieu"></div>
                 <img src="./images/hinhGioiThieu1.png" alt="hinhGioiThieu1" class="hinhGioiThieu1">
                 <img src="./images/hinhGioiThieu2.png" alt="hinhGioiThieu2" class="hinhGioiThieu2">
                 <span class="line1">TSUBAKI PREMIUM REPAIR</span>
@@ -120,7 +120,7 @@
                 position: absolute;
                 width: 332px;
                 height: 161.43px;
-                left: 200px;
+                left: 100px;
                 top: 536px;
                 text-align: right;
                 ">1</h1>
@@ -130,7 +130,7 @@
                 position: absolute;
                 width: 332px;
                 height: 161.43px;
-                left: 550px;
+                left: 450px;
                 top: 536px;
                 text-align: center;
                 ">2</h1>
@@ -140,7 +140,7 @@
                 position: absolute;
                 width: 332px;
                 height: 161.43px;
-                left: 910px;
+                left: 810px;
                 top: 536px;
                 text-align: left;
                 ">3</h1>
@@ -149,7 +149,7 @@
 
             <!-- Sản phẩm -->
 
-            <div class="sanPham">
+            <div class="sanPham" id="sanPham">
                 <div class="slideGroup">
                     <div class="slides">
                         <div class="sanPham1">
@@ -170,9 +170,9 @@
 
             <!-- Mua sản phẩm -->
 
-            <div class="muaSanPham">
+            <div class="muaSanPham" id="muaSanPham">
 
-                <div class="sanPham" style="position: absolute;left: 201px;top: 196.28px;">
+                <div class="sanPham">
                     <img src="./images/text1.png" alt="text1" style="position: absolute;width: 110%;left: -5%;top: -22%;z-index: 2;">
                     <div class="bongMo"></div>
                     <span class="soThu1">398K</span>
@@ -188,7 +188,7 @@
                     </div>
                 </div>
                     
-                <div class="sanPham" style="position: absolute;left: 811px;top: 196.91px;">
+                <div class="sanPham">
                     <img src="./images/text2.png" alt="text2" style="position: absolute;width: 110%;left: -5%;top: -22%;z-index: 2;">
                     <div class="bongMo"></div>
                     <span class="soThu1">398K</span>
@@ -284,25 +284,25 @@
 
         <!-- footer -->
 
-        <footer>
+        <footer id="footer">
 
                 <!-- information -->
             
             <div class="information">
                 <span class="line1">CÔNG TY TNHH TSUBAKIMOTO VIỆT NAM</span> <br>
-                <i class="fa fa-home" aria-hidden="true" style="color: #fff;font-size: 25px;position: absolute;top: 135px;left: 195px;"></i>
+                <i class="fa fa-home" aria-hidden="true" style="color: #fff;font-size: 25px;position: absolute;top: 135px;left: 95px;"></i>
                 <div class="line2">
                      Địa chỉ: Phòng 202, Lầu 2, tòa nhà DMC, Số 535 Kim Mã, Quận Ba Đình, Hà Nội
                 </div>
-                <i class="fa fa-envelope" aria-hidden="true" style="color: #fff;font-size: 25px;position: absolute;top: 207px;left: 195px;"></i>
+                <i class="fa fa-envelope" aria-hidden="true" style="color: #fff;font-size: 25px;position: absolute;top: 207px;left: 95px;"></i>
                 <div class="line2">
                     Email: info@tsubaki.net.vn
                 </div>
-                <i class="fa fa-phone" aria-hidden="true" style="color: #fff;font-size: 25px;position: absolute;top: 254px;left: 195px;"></i>
+                <i class="fa fa-phone" aria-hidden="true" style="color: #fff;font-size: 25px;position: absolute;top: 254px;left: 95px;"></i>
                 <div class="line2">
                     Điện thoại: +84 (24) 6274-1449
                 </div>
-                <i class="fa fa-globe" aria-hidden="true" style="color: #fff;font-size: 25px;position: absolute;top: 299px;left: 195px;"></i>
+                <i class="fa fa-globe" aria-hidden="true" style="color: #fff;font-size: 25px;position: absolute;top: 299px;left: 95px;"></i>
                 <div class="line2">
                     Website: https://tsubakivietnam.vn/
                 </div>
@@ -324,6 +324,35 @@
 
     </div>
     <script src="./js/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+
 </body>
 
 </html>
