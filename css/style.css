@@ -198,6 +198,15 @@ article .gioiThieu .hinhGioiThieu1{
     left: 106px;
     width: 300px;
     border-radius: 300px;
+    transition: 0.5s;
+}
+
+article .gioiThieu .hinhGioiThieu1:hover{
+    border-radius: 50px;
+    width: 350px;
+    left: 81px;
+    top: 80px;
+    transform: rotate(-10deg);
 }
 
 article .gioiThieu .hinhGioiThieu2{
@@ -206,6 +215,15 @@ article .gioiThieu .hinhGioiThieu2{
     left: 865px;
     width: 300px;
     border-radius: 300px;
+    transition: 0.5s;
+}
+
+article .gioiThieu .hinhGioiThieu2:hover{
+    border-radius: 50px;
+    width: 350px;
+    top: 365px;
+    left: 840px;
+    transform: rotate(10deg);
 }
 
 article .gioiThieu .line1{
@@ -343,14 +361,21 @@ article .congNgheThamThau .line2{
 }
 
 article .congNgheThamThau .baCaiHinh{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 article .congNgheThamThau .baCaiHinh img{
     width: 350px;
     margin: 0 -15px;
     margin-top: 200px;
+    transition: 0.5s;
+}
+
+article .congNgheThamThau .baCaiHinh img:hover{
+    margin-top: 150px;
+    width: 450px;
+    z-index: 2;
 }
 
 article .congNgheThamThau h1{
@@ -891,8 +916,13 @@ article .voucher .chuaBaRect .rect .pic3{
     top: 60px;
     left: 16px;
     width: 258.65px;
-    height: 180.15px;
+    /* height: 180.15px; */
     z-index: 2;
+    transition: 0.5s;
+}
+
+article .voucher .chuaBaRect .rect .pic3:hover{
+    transform: rotate(10deg);
 }
 
 article .voucher .chuaBaRect .rect .bongMo2{
@@ -925,6 +955,13 @@ article .voucher .chuaBaRect .rect .pic4{
     top: 50px;
     left: 10px;
     width: 220px;
+    transition: 0.5s;
+}
+
+article .voucher .chuaBaRect .rect .pic4:hover{
+    width: 240px;
+    top: 40px;
+    left: 0;
 }
 
     /* Sản Phẩm Nổi Bật */
@@ -1049,6 +1086,11 @@ article .sanPhamNoiBat .slideGroupTo .slideGroup2 .slides2{
 
 article .sanPhamNoiBat .slideGroupTo .slideGroup2 .slides2 .slide2 img{
     width: 100%;
+    transition: 0.5s;
+}
+
+article .sanPhamNoiBat .slideGroupTo .slideGroup2 .slides2 .slide2 img:hover{
+    transform: scale(1.1, 1.1);
 }
 
     /* Hướng dẫn */
